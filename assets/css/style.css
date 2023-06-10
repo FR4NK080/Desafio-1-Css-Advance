@@ -1,0 +1,103 @@
+/*colores
+    white #ffffff fondos de las boxes de la columna izquierda
+    platinum #E8EBE4 para el fondo de las manitos
+    gray #BEC1BB
+    Blue Bell #A491D2 para el boton del nuevo chat este va para el boton sin hover 
+    soap #CDC3E6 para el boton del nuevo chat
+    Dark Jungle #1B1F21 para las letras
+    old silver #828485 para el texto debajo del msg
+
+    typografias 
+    Roboto Bold   font-family: 'Roboto', sans-serif;
+    open Sans Regular  font-family: 'Open Sans', sans-serif;
+
+    texto grande 45px
+    texto mediano 16px
+    texto pequeno 14px
+    texto xs 10px
+    */
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#E8EBE4;
+}
+.thumbnail{
+    border-radius: 50%;
+    padding: 5px;
+    width: 50px;
+}
+.tiny-thumbnail{
+    border-radius: 50%;
+    padding: 5px;
+    width: 30px;
+}
+#button{
+    background-color: #A491D2;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 70px;
+    display: inline-block;
+}
+h1{
+    margin: 0px;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color:#1B1F21;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#1B1F21;
+}
+p{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#1B1F21;    
+}
+#maria{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color:#828485;
+}
+#maria-dp{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #E8EBE4 ;
+    background-color: #ffffff;
+    align-items: center;
+}
+.boxes-pr{
+    display:grid;
+    grid-template-columns: 4fr 14fr;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    text-align: center;
+}
+.hands{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.maria-align{
+    justify-content: flex-start;
+}
+.nuevo-chat{
+    padding: 30px 40px;
+    background-color: #ffffff;
+}
